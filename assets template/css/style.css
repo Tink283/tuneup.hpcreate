@@ -487,8 +487,8 @@
         .banner {
         height: 100vh;
         width: 100%;
-        -webkit-background-size: cover;
-        background-size: cover;
+        -webkit-background-size: 100%;
+        background-size: 100%;
         float:left;
         background-repeat: no-repeat;
         position: relative;
@@ -2161,8 +2161,8 @@ button#contact-submit {
       .page-title {
       height: 40vh;
       width: 100%;
-      -webkit-background-size: cover;
-      background-size: cover;
+      -webkit-background-size: 100%;
+      background-size: 100%;
       background-attachment: fixed; 
       background-repeat: no-repeat;
       position: relative;
