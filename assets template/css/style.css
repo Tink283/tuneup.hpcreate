@@ -1083,13 +1083,12 @@
 
         /*============ 8. Counter Section ============*/
         .counter-area {
-        -webkit-background-size: cover;
-        background-size: cover;
+        -webkit-background-size: cover !important;
+        background-size: cover !important;
         background-repeat: no-repeat;
         background-position: center;
         background-attachment: fixed;
         position: relative;
-        width:100%;
         overflow: hidden; }
 
         .counter-area:after {
@@ -1101,7 +1100,6 @@
         right: 0;
         background:transparent linear-gradient(to right bottom, #3f51b5, #ff4081);
         z-index: 0;
-        width:100%;
         opacity: .60; 
         }
         .counter-area .counter-item {
