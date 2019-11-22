@@ -1084,7 +1084,6 @@
         /*============ 8. Counter Section ============*/
         .counter-area {
         -webkit-background-size: cover;
-        background-size: cover;
         background-repeat: no-repeat;
         background-size: 1200px 700px !important;
         background-position: 55% 45% !important;
