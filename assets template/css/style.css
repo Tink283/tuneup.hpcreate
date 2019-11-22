@@ -487,8 +487,8 @@
         .banner {
         height: 100vh;
         width: 100%;
-        -webkit-background-size: cover;
-        background-size: cover;
+        -webkit-background-size: contain;
+        background-size: contain;
         float:left;
         background-repeat: no-repeat;
         position: relative;
