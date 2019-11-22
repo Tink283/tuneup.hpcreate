@@ -1089,6 +1089,7 @@
         background-position: center;
         background-attachment: fixed;
         position: relative;
+        width:100%;
         overflow: hidden; }
 
         .counter-area:after {
@@ -1100,6 +1101,7 @@
         right: 0;
         background:transparent linear-gradient(to right bottom, #3f51b5, #ff4081);
         z-index: 0;
+        width:100%;
         opacity: .60; 
         }
         .counter-area .counter-item {
