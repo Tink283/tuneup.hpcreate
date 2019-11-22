@@ -663,7 +663,10 @@
         position: relative; 
         margin-top: 50px;
       }
-
+        .about{
+         background-color: #fff;
+         z-index: 0;
+       }
         .about .about-img img {
         position: relative;
         width: 100%;
@@ -762,7 +765,10 @@
           box-shadow: 0 1px 20px 1px rgba(0,0,0,.1);
           margin-bottom: 30px;
         }
-
+        .services{
+         background-color: #fff;
+         z-index: 0;
+       }
         .service-icon {
         margin-top: 15px;
         margin-bottom: 15px;
@@ -880,6 +886,7 @@
       position: absolute;
       top: 0;
       left: 50%;
+      z-index:-5;
       }
       .main-timeline .timeline{
       width: 50%;
