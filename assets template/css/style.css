@@ -2360,8 +2360,8 @@ button#contact-submit {
             -webkit-transform: translate3d(0, 0, -1px);
             transform: translate3d(0, 0, -1px);
             width: 100%;
-            height: 100vh;
-            background: url(asset Template/images/seattle.jpg) center/cover no-repeat;
+            height: 20vh;
+            background: url(asset template/images/seattle.jpg) center/cover no-repeat;
             -webkit-background-size: cover;
           }
         .testi-description {
