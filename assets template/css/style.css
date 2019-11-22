@@ -1087,7 +1087,7 @@
         background-repeat: no-repeat;
         background-size: 1200px 700px !important;
         background-position: 55% 45% !important;
-        position: relative;
+        position: fixed;
         overflow: hidden; }
 
         .counter-area:after {
