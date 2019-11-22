@@ -1097,7 +1097,7 @@
         -webkit-background-size: cover;
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: 60% 40%;
+        background-position: center;
         position: relative;
         overflow: hidden; }
         body::before{
