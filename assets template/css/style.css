@@ -1101,7 +1101,6 @@
         background:transparent linear-gradient(to right bottom, #3f51b5, #ff4081);
         z-index: 0;
         opacity: .60; 
-        float:left;
         }
         .counter-area .counter-item {
         text-align: center;
