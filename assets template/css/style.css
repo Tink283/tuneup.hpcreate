@@ -487,8 +487,8 @@
         .banner {
         height: 100vh;
         width: 100%;
-        -webkit-background-size: contain;
-        background-size: contain;
+        -webkit-background-size: cover;
+        background-size: cover;
         float:left;
         background-repeat: no-repeat;
         position: relative;
@@ -1083,8 +1083,8 @@
 
         /*============ 8. Counter Section ============*/
         .counter-area {
-        -webkit-background-size: contain;
-        background-size: contain;
+        -webkit-background-size: cover;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         background-attachment: fixed;
