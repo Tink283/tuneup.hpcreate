@@ -665,7 +665,7 @@
       }
         .about{
          background-color: #fff;
-         z-index: 0;
+         z-index: 2;
        }
         .about .about-img img {
         position: relative;
@@ -767,7 +767,7 @@
         }
         .services{
          background-color: #fff;
-         z-index: 0;
+         z-index: 2;
        }
         .service-icon {
         margin-top: 15px;
@@ -797,6 +797,7 @@
       position: relative;
       background-color: #f2f2f2;
       overflow: hidden;
+      z-index:2;
       }
       .skills .part-text h4 {
       font-size: 18px;
@@ -872,7 +873,10 @@
       width: 100%;
       height: 100%;
       }
-
+      .timeline{
+      z-index:2;
+      background-color:#fff;
+      }       
       .main-timeline{
       overflow: hidden;
       position: relative;
@@ -886,7 +890,7 @@
       position: absolute;
       top: 0;
       left: 50%;
-      z-index:-5;
+      z-index:5;
       }
       .main-timeline .timeline{
       width: 50%;
