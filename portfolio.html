@@ -855,7 +855,59 @@
         <!--Site Main js-->
         <script src="assets template/js/contact.js"></script>
         <script src="assets template/js/main.js"></script>
-       
+        <style media="screen">
+        body {
+            overflow-y: scroll;
+        }
+                .js-parallax {
+                        width: 100%;
+                        height: 300px;
+            margin: 0 auto 1500px;
+                        background: url(./img/img01.jpg) no-repeat center bottom;
+                        background: url(./img/img01.jpg) no-repeat center top;
+                        text-align: center;
+                        background-attachment: fixed;
+                }
+                @media screen and (max-width: 750px) {
+                        .js-parallax {
+                                background-size: cover;
+                                background-attachment: scroll;
+                        }
+                }
+        </style>
+        <script type="text/javascript">
+        (function() {
+          var parallaxBkImg = function(){
+            $(window).on('load scroll', function(){
+                                var $winTop = $(window).scrollTop();
+                                var $target = $('.js-parallax');
+                                $target.each(function(index){
+                                        var $position = $winTop - $target.eq(index).offset().top; // -100px background-position-y を マイナススタートにする
+                                        console.log($position)
+                                        if($winTop > $target.eq(index).offset().top - 800) {  // 数値を変えることで開始位置変更
+                                                $target.eq(index).css({
+                                      'background-position-y': $position
+                                    });
+                        $(window).on('load resize', function() {
+                          $(window).on('load scroll', function(){
+                                        var $winTop = $(window).scrollTop();
+                                        var $target = $('.js-parallax');
+                                        var $winWidth = $(window).width();
+                                        if($winWidth < 750) {
+                                                $target.each(function(index){
+                                                        var $position = $winTop - $target.eq(index).offset().top;
+                                                        if($winTop > $target.eq(index).offset().top - 800) {
+                                                                $target.eq(index).css({
+                                                      'background-position-y': $position * .4
+                                                    });
+                                                        }
+                                                });
+                                        }
+                                });
+            });
+          }();
+        })();
+        </script>
 
     </body>
 </html>
