@@ -1083,11 +1083,12 @@
 
         /*============ 8. Counter Section ============*/
         .counter-area {
-        -webkit-background-size: cover;
+        -webkit-background-size: 100% 100%;
         background-repeat: no-repeat;
-        background-size: 1200px 700px !important;
+        background-size: 100% 100% !important;
         background-position: 55% 45% !important;
         position: relative;
+        background-attachment: fixed;
         overflow: hidden; }
 
         .counter-area:after {
@@ -2275,6 +2276,9 @@ button#contact-submit {
       .banner-div h1{
         color: #fff;
       }
+      .counter-area{
+          background-area: auto 100%;
+      }
       .banner-div p {
       font-size: 21px; }
       .about .about-img:before {
@@ -2347,7 +2351,9 @@ button#contact-submit {
         .counter-area .counter-item h2 {
               font-size: 35px;
           } 
-        
+        .counter-area{
+            background-size: auto 100%;
+          }
         .testi-description {
             font-size: 16px;
         }
@@ -2395,7 +2401,9 @@ button#contact-submit {
       span.about-btn a {
       margin-top: 15px;
       }
-
+      .countar-area{
+       background-size:auto 100px;
+      }
       span.about-btn {
       display:  inline-block;
       }
