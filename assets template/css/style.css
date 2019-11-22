@@ -874,7 +874,7 @@
       height: 100%;
       }
       .timeline{
-      z-index:2;
+      z-index:4;
       background-color:#fff;
       }       
       .main-timeline{
