@@ -800,7 +800,7 @@
       z-index:2;
       }
       .image1{
-        background-image: url("../../assets/images/patrick-schneider-Zj81cC5s5OU-unsplash.jpg");
+        background: linear-gradient(135deg,rgba(63,81,181,0.6),rgba(255,64,64,0.6)),url("../../assets/images/patrick-schneider-Zj81cC5s5OU-unsplash.jpg");
         background-size: cover; 
         z-index: 0;
       }
@@ -1111,31 +1111,14 @@
         background-repeat: no-repeat;
         background-position: 55% 45%;
         position: relative;
-        overflow: hidden; }
-        body:before{
-          content:"";
-          display:block;
-          position:fixed;
-          top:0;
-          left:0;
-          z-index: -1;
-          width:100%;
-          height:100vh;
-          background:url(../../assets/images/sabine-ojeil-xsqF178XAhk-unsplash.jpg) center no-repeat;
-          background-size:cover;
+        overflow: hidden; 
         }
-
-        body:after {
-        content: " ";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        background:transparent linear-gradient(to right bottom, #3f51b5, #ff4081);
-        z-index: -1;
-        opacity: .60; 
-        }
+        .image2{
+        background: linear-gradient(135deg,rgba(63,81,181,0.6),rgba(255,64,64,0.6)),url("../../assets/images/")
+        background-size:cover;
+        z-index:-1;
+        }   
+        
         .counter-area .counter-item {
         text-align: center;
         color: #fff;
