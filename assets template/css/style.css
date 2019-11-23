@@ -1114,7 +1114,7 @@
         overflow: hidden; 
         }
         .image2{
-        background: linear-gradient(135deg,rgba(63,81,181,0.6),rgba(255,64,64,0.6)),url("../../assets/images/")
+        background: linear-gradient(135deg,rgba(63,81,181,0.6),rgba(255,64,64,0.6)),url("../../assets/images/sabine-ojeil-xsqF178XAhk-unsplash.jpg")
         background-size:cover;
         z-index:-1;
         }   
