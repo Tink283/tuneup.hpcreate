@@ -1116,28 +1116,9 @@
         .image2{
         background: linear-gradient(135deg,rgba(63,81,181,0.6),rgba(255,64,64,0.6)),url("../../assets/images/sabine-ojeil-xsqF178XAhk-unsplash.jpg")
         background-size:cover;
-        z-index:-1;
+        z-index:0;
         }   
-        body:before{
-          content:"";
-          display:block;
-          position:fixed;
-          top:0;
-          left:0;
-          z-index: -1;
-          width:100%;
-          height:100vh;
-        }
-        body:after {
-        content: " ";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        z-index: -1;
-        opacity: .60; 
-        }
+        
         .counter-area .counter-item {
         text-align: center;
         color: #fff;
