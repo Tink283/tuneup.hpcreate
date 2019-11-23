@@ -804,6 +804,12 @@
         background-size: cover; 
         z-index: 0;
       }
+      .skill-cover{
+        background-color: #fff;
+        padding: 3rem;
+        opacity: 0.9 ;
+        z-index: 3;
+      }
       .skills .part-text h4 {
       font-size: 18px;
       font-weight: 700;
