@@ -667,6 +667,12 @@
          background-color: #fff;
          z-index: 0;
        }
+       @media screen and (min-width: 991px) {
+        .genki{
+          display: flex;
+          flex-direction: row-reverse;
+        }
+       }
         .about .about-img img {
         position: relative;
         width: 100%;
@@ -763,11 +769,22 @@
           padding: 20px 20px;
           border-radius: 0px;
           box-shadow: 0 1px 20px 1px rgba(0,0,0,.1);
-          margin-bottom: 30px;
+          height: 100%;
         }
         .services{
          background-color: #fff;
          z-index: 0;
+       }
+       .service-content{
+         display: flex;
+         justify-content: center;
+         align-content: space-around;
+         text-align: center;
+         flex-direction: row;
+         flex-wrap: wrap;
+       }
+       .service-space{
+         margin-bottom: 30px;
        }
         .service-icon {
         margin-top: 15px;
@@ -845,7 +862,7 @@
       transition: all 3s;
       }
       .skills .skill-div .skills-item .bar .fill:before {
-        content: attr(data-width);
+        content: attr(data-name);
             position: absolute;
             top: -30px;
             right: -15px;
@@ -853,6 +870,9 @@
             color: #222;
             font-size: 14px;
             font-weight: 400;
+      }
+      .server{
+        margin-bottom: 4vmin !important;
       }
       .cd-headline.clip .cd-words-wrapper::after {
       content: '';
@@ -1399,6 +1419,9 @@
       }
       .testimonial{
       text-align: center;
+      background-color: #fff;
+      padding: 5vmin ;
+      opacity: 0.9;
       }
       .testi-description{
       font-size: 18px;
@@ -1406,7 +1429,8 @@
       margin-bottom: 21px;
       padding: 0px 11%;
       position: relative;
-      color: #fff;
+      color: #222;
+      
       }
       .testi-description:before{
       content: "\f10d";
@@ -1431,7 +1455,7 @@
       font-size: 30px;
       }
       p.testi-description {
-      color: #fff;
+      color: #222;
       }
       .testimonial-review .pic{
       width: 95px;
@@ -1451,13 +1475,13 @@
         font-weight: bolder;
         font-weight: 600;
         text-transform: uppercase;
-        color: #fff;
+        color: #333;
         margin-top: 5px;
         display: inline-block;
       }
       .testimonial-title > small{
       display: block;
-      color: #fff;
+      color: #333;
       font-size: 14px;
       text-transform: capitalize;
       margin-top: 5px;
@@ -1511,7 +1535,8 @@
       z-index: 10;
       }
       .goal{
-        color: white;
+        color: #333;
+        font-family: bold;
       }
       .goal span{
         color: #ff0033;
@@ -1521,6 +1546,15 @@
       form#contact-form input {
       height: 50px;
       border-radius: 0px;
+      }
+      @media screen and (min-width: 991px) {
+        .google{
+          height: 100vmin;
+        }
+      }
+      .google-form{
+        width: 100% ;
+        height: 100%;
       }
 
       form#contact-form textarea {
@@ -2333,6 +2367,9 @@ button#contact-submit {
        
         .about .about-img {
             margin-top: 50px;
+        }
+        .google-form{
+          height: 200vmin;
         }
       }
 

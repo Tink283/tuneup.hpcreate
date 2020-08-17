@@ -17,6 +17,7 @@ html {
 	-webkit-text-size-adjust:none;
 	color:#6F6F6F;
 	background-color:#efefef;
+	position: fixed;;
 }
 body{
 	min-height:100%;
