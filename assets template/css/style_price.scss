@@ -1,0 +1,94 @@
+body:after {
+    content: " ";
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(135deg,rgba(63,81,81,0.6)0%,rgba(255,64,64,0.6)100%);
+    z-index: -1; 
+    } 
+body:before{
+    content:"";
+    display:block;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: -1;
+    width:100%;
+    height:100%;
+    background:url("../../assets/images/sabine-ojeil-xsqF178XAhk-unsplash.jpg") center no-repeat;
+    background-size:cover;
+}
+body {
+    font-family: "Raleway", san-serif;
+    position: relative;
+    font-size: 2vmin;
+    line-height: 1.65;
+    color: #465353;
+    -webkit-font-smoothing: antialiased;
+    font: bold;
+    content:"";
+    .paper{
+        background-color: white;
+        width: 75%;
+        height: auto;
+        margin-left: 12%;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        padding-bottom: 5rem;
+        opacity: 0.9;
+        h1{
+            padding-top: 5rem;
+            text-align: center;
+            font-size: 2rem;
+            color: black;
+            padding-bottom: 3rem;
+            font-weight: 700;
+        }
+        ul,ol{
+            padding: 0 20vmin 
+        }
+        h2{
+            text-align: center;
+            padding: 2rem 5vmin;
+            color: black;
+            background-color: #fff;
+            text-align: left;
+            margin-top: 4rem;
+            margin-bottom: 3rem;
+            border-bottom: solid 2px #000;
+            position: relative;
+        }
+        table {
+            border-collapse: collapse;
+            border-spacing: 0;
+            border: 1px solid #181818;
+            margin: 0 10%;
+            width: 78%;
+            th, td {
+                border: 1px solid #494747;
+                padding: 8px 2vmin;
+            }
+        }
+        p{
+            margin-left: 10%;
+            margin-top: 2rem;
+            margin-right: 3rem;
+        }
+    }
+}
+hr{
+    background-color:  #ff0000;
+}
+h2:after {
+    content: "";
+    display: block;
+    line-height: 0;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 30%;
+    border-bottom: 2px solid #ff0000;
+}
